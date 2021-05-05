@@ -5,7 +5,11 @@ from plyer import notification #for getting notification on your PC
 import sys
 
 # pincode = input('Enter your pincode we will fetch dose availability upto 5 days')
-pincode = sys.argv[1]
+
+
+pincode = 000000 #enter your pin code instead
+
+
 x = datetime.datetime.now()
 today = x.strftime("%d-%m-%Y")
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
